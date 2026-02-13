@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaayos Bazaar - India's Biggest & Most Loved Chai and Snacks Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Chaayos</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Cafe Locator</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="search-btn" aria-label="Search">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                    <button class="user-btn" aria-label="User">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">India's biggest<br>& most loved <span class="highlight">Chai<br>and
+                            Snacks</span> Cafe</h2>
+                    <p class="hero-subtitle">200+ Cafes in Delhi, Mumbai, Bangalore, Pune,<br>Hyderabad, Chennai & more
+                        to come</p>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-chai.png" alt="Chai and Snacks" class="hero-img-element">
+                </div>
+            </div>
+            <div class="hero-footer">
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="rating-text">4.4 Rating</span>
+                </div>
+                <div class="contact-number">
+                    <span>📞 1800 120 2424</span>
+                </div>
+                <button class="download-btn">DOWNLOAD APP</button>
+            </div>
+            <div class="featured-in">
+                <span class="featured-text">FEATURED IN</span>
+                <div class="media-logos">
+                    <span class="media-logo">Forbes</span>
+                    <span class="media-logo">THE HINDU</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Gifting Banner -->
+    <section class="premium-gifting-banner">
+        <div class="container">
+            <h2 class="section-title">Premium Gifting</h2>
+            <p class="section-subtitle">Perfect Chai time for your loved ones</p>
+            <div class="gifting-banner-image">
+                <div class="gift-box"></div>
+                <div class="premium-text">
+                    <span class="premium-title">PREMIUM GIFTING</span>
+                    <span class="premium-subtitle">for your<br><span class="loved-ones">Loved ones</span></span>
+                    <button class="order-btn">Click to Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Now Section -->
+    <section class="shop-section">
+        <div class="container">
+            <h2 class="section-title">Shop now</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image instant-tea"></div>
+                    <div class="product-label">INSTANT TEA</div>
+                    <h3 class="product-name">Premix</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image chai-patti"></div>
+                    <div class="product-label">CHAI PATTI</div>
+                    <h3 class="product-name">Spiced</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image spices"></div>
+                    <div class="product-label">SPICES</div>
+                    <h3 class="product-name">Natural</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image snacks"></div>
+                    <div class="product-label">SNACKS</div>
+                    <h3 class="product-name">Chai-Time</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image herbal-tea"></div>
+                    <div class="product-label">HERBAL TEA</div>
+                    <h3 class="product-name">Flavourful</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image green-tea"></div>
+                    <div class="product-label">GREEN TEA</div>
+                    <h3 class="product-name">Green Tea</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image tea-bags"></div>
+                    <div class="product-label">TEA BAGS</div>
+                    <h3 class="product-name">Pyramid</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image gift-boxes"></div>
+                    <div class="product-label">GIFT BOXES</div>
+                    <h3 class="product-name">Gifting</h3>
+                </div>
+                <div class="product-card">
+                    <div class="product-image customise"></div>
+                    <div class="product-label">POPULAR PRODUCT</div>
+                    <h3 class="product-name">Choose<br>Flavours</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bestsellers Section -->
+    <section class="bestsellers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bestsellers</h2>
+                <a href="#" class="view-all">View all</a>
+            </div>
+            <div class="bestsellers-grid">
+                <div class="product-item">
+                    <div class="product-item-image masala-chai"></div>
+                    <h3 class="product-item-title">Instant Tea - Masala - Regular Sugar (36 Sachets)</h3>
+                </div>
+                <div class="product-item">
+                    <div class="product-item-image make-chai"></div>
+                    <div class="sale-badge">SALE</div>
+                    <h3 class="product-item-title">Make Your Own Chai - 400g Pack</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">New Arrivals</h2>
+                <a href="#" class="view-all">View all</a>
+            </div>
+            <div class="new-arrivals-grid">
+                <div class="product-item">
+                    <div class="product-item-image saffron"></div>
+                    <h3 class="product-item-title">Kashmiri Saffron (1g) - Pure A++ Grade Kesar</h3>
+                </div>
+                <div class="product-item">
+                    <div class="product-item-image hibiscus"></div>
+                    <div class="new-badge">NEW</div>
+                    <h3 class="product-item-title">Hibiscus Mulethi Green Tea Bags</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Stores Section -->
+    <section class="stores-section">
+        <div class="container">
+            <h2 class="section-title">Our Stores</h2>
+            <p class="section-subtitle">Every cafe is uniquely designed</p>
+            <div class="stores-grid">
+                <div class="store-image store1"></div>
+                <div class="store-image store2"></div>
+                <div class="store-image store3"></div>
+            </div>
+            <button class="visit-btn">Visit Nearest Chaayos</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Relax with our wide range of Chai</p>
+            <div class="menu-collage">
+                <div class="menu-grid">
+                    <div class="menu-item chai-cup-green"></div>
+                    <div class="menu-item chai-glass"></div>
+                    <div class="menu-item chai-cup-transparent"></div>
+                    <div class="menu-item chai-variety"></div>
+                    <div class="menu-item chai-cup-orange"></div>
+                    <div class="menu-item chai-pouring">
+                        <div class="served-text">
+                            <p>Served over</p>
+                            <p class="crores">20 CRORES+</p>
+                            <p>Chai till date</p>
+                        </div>
+                    </div>
+                    <div class="menu-item chai-green-cup"></div>
+                    <div class="menu-item chai-iced"></div>
+                    <div class="menu-item chai-cup-plain"></div>
+                    <div class="menu-item chai-chocolate"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chai Delivery Section -->
+    <section class="delivery-section">
+        <div class="container">
+            <h2 class="section-title">Chai Delivery</h2>
+            <div class="delivery-card">
+                <div class="delivery-content">
+                    <h3>Get your <span class="chai-text">Chai</span><br>at home</h3>
+                    <p>We deliver <strong>Hot chai</strong> in<br>specially designed kettle</p>
+                    <button class="order-now-btn">Order Now</button>
+                </div>
+                <div class="delivery-image">
+                    <div class="kettle-image"></div>
+                    <div class="guarantee-badge">
+                        <span>60 mins<br>hot Chai<br>guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Customers are Saying</h2>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">I sent whole wheat cookies to my Mom!! She just loved it, now a big-time fan
+                    of the Chaayos whole wheat cookies.</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar"></div>
+                    <div class="author-info">
+                        <p class="author-name">Bruno</p>
+                        <p class="author-location">Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon phone-icon"></div>
+                    <h3 class="contact-number">1800-120-2424</h3>
+                    <p class="contact-text">Call us between Monday-Sunday</p>
+                    <p class="contact-text">From 6:00 am to 12 PM</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon email-icon"></div>
+                    <h3 class="contact-email">Letstalk@chaayos.com</h3>
+                    <p class="contact-text">Contact us for any queries or issues</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Site menu</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Safetea</a></li>
+                        <li><a href="#">Download App</a></li>
+                        <li><a href="#">My account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Get in touch</h3>
+                    <a href="tel:18001202424" class="footer-phone">18001202424</a>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="Facebook">f</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
